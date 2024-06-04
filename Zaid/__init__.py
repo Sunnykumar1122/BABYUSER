@@ -18,13 +18,13 @@ if API_ID:
    API_ID = API_ID
 else:
    print("WARNING: API ID NOT FOUND USING ZAID API ⚡")
-   API_ID = "21827814"
+   API_ID = "21252518"
 
 if API_HASH:
    API_HASH = API_HASH
 else:
    print("WARNING: API HASH NOT FOUND USING ZAID API ⚡")   
-   API_HASH = "af097d21fa5049b0ed0d614ed3b885cd"
+   API_HASH = "19b7cb0ba0c36d62477516fa5cfff1c3"
 
 if not BOT_TOKEN:
    print("WARNING: BOT TOKEN NOT FOUND PLZ ADD ⚡")   
