@@ -6,7 +6,7 @@ from Zaid.modules import ALL_MODULES
 from Zaid import clients, app, ids
 
 async def start_bot():
-    await app.start()
+    await app.start({BOT USERNME})
     print("LOG: Founded Bot token Booting Zeus.")
     for all_module in ALL_MODULES:
         importlib.import_module("Zaid.modules" + all_module)
@@ -23,4 +23,4 @@ async def start_bot():
     await idle()
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_bot())
+loop.run_until_complete(start_bot({BOTUSER NAME}))
