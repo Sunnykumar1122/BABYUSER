@@ -73,15 +73,15 @@ async def pingme(client: Client, message: Message):
        await message.delete()
     except:
        pass
-    await xx.edit("**20% ███ sʏɴᴀxx-ᴏᴘ▒▒▒▒▒**")
-    await xx.edit("**40% ████ sʏɴᴀxx-ᴘᴀᴘᴀ**")
-    await xx.edit("**60% ██████sʏɴᴀxx-ʙᴀᴀᴘ**")
-    await xx.edit("**80% ████████ sʏɴᴀxx**")
+    await xx.edit("**20% ███ BABY ROLEX ▒▒▒▒▒**")
+    await xx.edit("**40% ████  ROLEX ᴘᴀᴘᴀ**")
+    await xx.edit("**60% ██████ ROLEX-ʙᴀᴀᴘ**")
+    await xx.edit("**80% ████████  ROLEX**")
     await xx.edit("**100%██████████ᴄᴏᴍɪɴɢ**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit(
-        f"❏ **╰☞ ⚡️ 𝗭𝗘𝗨𝗦⚡️**\n"
+        f"❏ **╰☞ ⚡️ ROLEX ⚡️**\n"
         f"├• **╰☞ 𝐒ᴘᴇᴇᴅ**`%sms`\n"
         f"├• **╰☞ 𝐔ᴘᴛɪᴍᴇ** `{uptime}` \n"
         f"└• **╰☞ 𝐍ᴀᴍᴇ:** {client.me.mention}" % (duration)
