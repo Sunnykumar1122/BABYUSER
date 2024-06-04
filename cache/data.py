@@ -205,13 +205,13 @@ RAID = [
 ]
 
 
-GRP = "@sagebotxsupports"
+GRP = "babe_bot_update"
 
-GROUP = [-1002045402838]
+GROUP = [-1002079724994]
 
-VERIFIED_USERS = [7037832227, 5959308905]
+VERIFIED_USERS = [6585782640, 6834183579]
 
-Owners = "@ig_synax|@the_girl_moon|@sagebotxsupports"
+Owners = "@Fushii_warr|@Rolex_babee|@babe_bot_update"
 
 PORM = [
         "https://telegra.ph/file/9bcc076fd81dfe3feb291.mp4",
