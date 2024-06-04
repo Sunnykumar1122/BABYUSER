@@ -52,7 +52,7 @@ async def alive_function(message: Message, answers):
     msg = f"""
 <b> — Hey, I am alive.</b>
 
-<b> • 𝗭𝗘𝗨𝗦 :</b> {message.from_user.mention}
+<b> • ROLEX :</b> {message. @Fushii_warr}
 <b> • Plugins :</b> <code>{len(CMD_HELP)} Modules</code>
 <b> • Python Version :</b> <code>{pyver.split()[0]}</code>
 <b> • Pyrogram Version :</b> <code>{pyrover}</code>
@@ -64,12 +64,12 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://graph.org/file/c6a2ed96648fd03377dc9.jpg",
+            thumb_url="https://telegra.ph//file/a9e8e650ac5b49d504902.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("──「 𝗭𝗘𝗨𝗦-𝗫𝗗 」──", callback_data="helper")]]
+                [[InlineKeyboardButton("──「 BABY ROLEX 」──", callback_data="helper")]]
             ),
         )
     )
@@ -82,7 +82,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/6e8bb5bb7cd3a4a534683.jpg",
+            thumb_url="https://telegra.ph//file/a9e8e650ac5b49d504902.jpg,
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
