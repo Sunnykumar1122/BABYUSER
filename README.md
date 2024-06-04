@@ -1,7 +1,7 @@
 <img
 src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p align="center">⚡️𝗭𝗘𝗨𝗦-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
+<p align="center">⚡️ROLEX-𝗨𝗦𝗘𝗥𝗕𝗢𝗧⚡️</p>
 
 <img src="https://telegra.ph//file/a9e8e650ac5b49d504902.jpg">
 
