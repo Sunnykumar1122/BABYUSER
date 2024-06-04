@@ -254,7 +254,7 @@ async def upstream(client: Client, message: Message):
         await status.edit(
             "`Zaid-Userbot Successfully Updated! Userbot can be used again.`",
         )
-        args = [sys.executable, "-m", "Zaid"]
+        args = [sys.executable, "-m", "ROLEX"]
         execle(sys.executable, *args, environ)
         return
 
@@ -319,7 +319,7 @@ async def updatees(client: Client, message: Message):
 add_command_help(
     "update",
     [
-        ["update", "To see a list of the latest updates from Zaid-Userbot."],
+        ["update", "To see a list of the latest updates from ROLEX-Userbot."],
         ["update deploy", "To update userbot."],
     ],
 )
