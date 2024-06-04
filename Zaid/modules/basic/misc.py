@@ -17,14 +17,14 @@ if ALIVE_TEXT:
    txt = ALIVE_TEXT
 else:
     txt = (
-        f"** ⚡️ 𝗭𝗘𝗨𝗦 ⚡️ **\n\n"
+        f"** ⚡️ BABY ROLEX ⚡️ **\n\n"
         f"❏ **𝐕ᴇʀsɪᴏɴ**: `2.1`\n"
         f"├• **𝐔ᴘᴛɪᴍᴇ**: `{str(datetime.now() - START_TIME).split('.')[0]}`\n"
         f"├• **𝐏ʏᴛʜᴏɴ**: `{python_version()}`\n"
         f"├• **𝐏ʏʀᴏɢʀᴀᴍ**: `{__version__}`\n"
-        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [|| ˹𖤍𝐒ʏɴα𝘅𝘅 𝘅 𝐒ᴜᴘᴘᴏʀᴛ𖤍˼ ||](t.me/sagebotxsupports)\n"
+        f"├• **𝐒ᴜᴘᴘᴏʀᴛ-𝐂ʜᴀᴛ**: [|| ˹Rolex 𝘅 𝐒ᴜᴘᴘᴏʀᴛ𖤍˼ ||](t.me/babe_bot_update)\n"
         f"├• **𝐔ᴘᴅᴀᴛᴇs**: [𝗦𝗬𝗡𝗔𝗫](t.me/ig_synax)\n"
-        f"└• **𝐌ᴀsᴛᴇʀ**: [𝗦𝗛𝗜𝗩𝗔𝗡𝗦𝗛](t.me/ig_synax)"        
+        f"└• **𝐌ᴀsᴛᴇʀ**: [ BABY ROLEX](t.me/Fushii_warr)"        
     )
 
 @Client.on_message(
@@ -57,12 +57,12 @@ async def repo(bot: Client, message: Message):
     await asyncio.sleep(1)
     await message.edit("Fetching Source Code.....")
     await asyncio.sleep(1)
-    await message.edit("Here is repo: \n\n\nhttps://github.com/Sagexdd/USERBOT2\nFork & Give an ⭐")
+    await message.edit("Here is repo: \n\n\nhttps://github.com/Sunnykumar112/BABYUSER\nFork & Give an ⭐")
 
 
 @Client.on_message(filters.command("creator", ".") & filters.me)
 async def creator(bot: Client, message: Message):
-    await message.edit("https://gitHub.com/Sagexdd")
+    await message.edit("https://gitHub.com/Sunnykumar112")
 
 
 @Client.on_message(filters.command(["uptime", "up"], ".") & filters.me)
