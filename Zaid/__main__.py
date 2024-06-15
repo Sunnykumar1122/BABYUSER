@@ -23,4 +23,4 @@ async def start_bot():
     await idle()
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_bot({BOT_USERNAME}))
+loop.run_until_complete(start_bot(ROLEX_USER_BOT))
