@@ -15,8 +15,8 @@ def escape_markdown(text):
 
 
 def mention_html(user_id, name):
-    return '<a href="tg:/t.me/ll_ROLEX_lll">{}</a>'.format(ll_ROLEX_lll, html.escape(BABY ROLEX))
+    return '<a href="tg://user?id={}">{}</a>'.format(user_id, html.escape(name))
 
 
 def mention_markdown(user_id, name):
-    return "[{ROLEX}](tg:/t.me/ll_ROLEX_lll)".format(escape_markdown(name), user_id)
+    return "[{}](tg://user?id={})".format(escape_markdown(name), user_i
