@@ -52,7 +52,7 @@ async def alive_function(message: Message, answers):
     msg = f"""
 <b> — Hey, I am alive.</b>
 
-<b> • ROLEX :</b> {message. @ll_ROLEX_lll})
+<b> • ROLEX :</b>{message.from_user.mention}
 <b> • Plugins :</b> <code>{len(CMD_HELP)} Modules</code>
 <b> • Python Version :</b> <code>{pyver.split()[0]}</code>
 <b> • Pyrogram Version :</b> <code>{pyrover}</code>
